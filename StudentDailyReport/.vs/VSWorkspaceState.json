@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StudentDailyReport"
   ],
-  "SelectedNode": "\\StudentDailyReport.sln",
+  "SelectedNode": "\\StudentDailyReport\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
