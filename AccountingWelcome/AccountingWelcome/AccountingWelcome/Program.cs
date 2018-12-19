@@ -10,6 +10,6 @@ namespace AccountingWelcome
             Console.WriteLine("Welcome to Acme Accounting Systems");
             Console.WriteLine("We are 'accouting'on you!");
             Console.ReadLine();
-        }
+        }   /*This is a comment */
     }
 }
