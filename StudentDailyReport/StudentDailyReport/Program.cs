@@ -24,7 +24,7 @@ class Program
         int hoursStudy = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
 
-        
+        Console.ReadLine("Hello");
 
     }
 }
