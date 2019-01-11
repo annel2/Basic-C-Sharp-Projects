@@ -13,16 +13,16 @@ namespace Class111
             Console.WriteLine("Pick a number.");
             int numberOne = Convert.ToInt32(Console.ReadLine());
             int product = Math.MultiplybyTwo(numberOne);
-            Console.WriteLine(numberOne + " multiply by two" + " equals " + product);
+            Console.WriteLine(numberOne + " multiply by 2" + " equals " + product);
             Console.ReadLine();
 
 
             int quotient = Math.DividebyTwo(numberOne);
-            Console.WriteLine(numberOne + " divide by two" + " equals " + quotient);
+            Console.WriteLine(numberOne + " divide by 2" + " equals " + quotient);
             Console.ReadLine();
            
             int sum = Math.AddTwo(numberOne);
-            Console.WriteLine(numberOne + " add two" + " equals " + sum);
+            Console.WriteLine(numberOne + " add 2" + " equals " + sum);
             Console.ReadLine();
 
         }
