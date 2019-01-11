@@ -12,13 +12,11 @@ namespace ArrayListRedo
         {
             string[] numArray1 = new string[]{ "do", "re", "mi", "fa", "so" };
             Console.WriteLine("Select any number from zero to four.");
-            //int number = Convert.ToInt32 (Console.ReadLine());
             Console.WriteLine(numArray1[Convert.ToInt32(Console.ReadLine())]);
             Console.ReadLine();
 
             int[] numArray2 = { 5, 10, 15, 20, 25, 30 };
             Console.WriteLine ("Select any number from zero to five");
-            //Console.WriteLine(numArray2[Convert.ToInt32(Console.ReadLine())]);
             int number= Convert.ToInt32(Console.ReadLine());
             
 
