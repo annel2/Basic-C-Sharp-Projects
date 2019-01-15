@@ -10,29 +10,24 @@ namespace Overload129
     {
         static void Main(string[] args)
         {
-          
-       
-            Employee employee1 = new Employee();
-            string employee1 = string employeeID156ddx
 
+            Employee employee1 = new Employee();
+            employee1.employee1ID = 1;
 
             Employee employee2 = new Employee();
-            string employee2 = string employeeID2
+            employee2.employee1ID = 1;
+            
+            Console.WriteLine("Employee1 is equal to Employee 2:" + (employee1 == employee2).ToString());
+            Console.ReadLine();
+            
+        }   
 
-        
-            public static bool operator ==(employee1, employee2)
-            {
-            if
-                  (employee1ID == employee2ID)
-
-                return true;
-            else
-                return false;
-
-            }
     }
 
+
 }
+
+
 
 
 
