@@ -54,7 +54,15 @@ namespace Enum134
             {
                 Console.ReadLine();
             }
-        }
-    }
+        } // public static bool operator == (Employee employee1, Employee employee2)
+//        {
+//            if (employee1.employee1ID == employee2.employee1ID)
+
+//                return true;
+
+//            else
+//                return false;
+//        }
+//}
 
 }
