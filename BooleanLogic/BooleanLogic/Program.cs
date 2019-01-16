@@ -1,7 +1,8 @@
 ﻿using System;
 
 
-namespace BooleanLogic
+namespace BooleanLogic75
+
 {
     class Program
     {

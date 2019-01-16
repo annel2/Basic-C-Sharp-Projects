@@ -8,24 +8,53 @@ namespace Enum134
 {
     class Program
     {
+        //1. Create an enum for the days of the week.
+        public enum DaysOfTheWeek
+        {
+            
+            Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+        }
         static void Main(string[] args)
         {
+
             try
             {
-            public enum DaysOfTheWeek
-            {
-            Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+                //2. Prompt the user to enter the current day of the week.
+                Console.WriteLine("Please enter in the current day of the week.");
+                string Response = Console.ReadLine();
+
+
+                //3. Assign the value to a variable of that enum data type you just created.
+                //converts string to enum
+                DaysOfTheWeek today = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), Response);
+                Console.WriteLine(today);
+                Console.ReadLine();
 
             }
-            Console.WriteLine("Please enter in the current day of the week.");
-        }   enum DaysoftheWeek = day;
-            }
-            Catch(Exception ex)
+
+            bool isTrue = Response is int;
+            
+            bool isFalse = Response is string;
+            
+            
+            
+            
+
+             //4. Wrap the above statement in a try/catch block and have it print 
+             //"Please enter an actual day of the week." to the console if an error occurs.
+            
+            
+            catch (Exception)
             {
-            Console.WriteLine("Please enter an actual day of the week.");
-            } 
+                Console.WriteLine("Please enter an actual day of the week.");
+                Console.ReadLine();
 
+            }
+            finally
+            {
+                Console.ReadLine();
+            }
+        }
+    }
 
-    }Console.ReadLine();
 }
-
