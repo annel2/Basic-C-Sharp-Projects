@@ -11,7 +11,7 @@ namespace Enum134
         //1. Create an enum for the days of the week.
         public enum DaysOfTheWeek
         {
-            
+
             Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
         }
         static void Main(string[] args)
@@ -32,18 +32,18 @@ namespace Enum134
 
             }
 
-            bool isTrue = Response is int;
-            
-            bool isFalse = Response is string;
-            
-            
-            
-            
+            //bool isTrue = Response is int;
 
-             //4. Wrap the above statement in a try/catch block and have it print 
-             //"Please enter an actual day of the week." to the console if an error occurs.
-            
-            
+            //bool isFalse = Response is string;
+
+
+
+
+
+            //4. Wrap the above statement in a try/catch block and have it print 
+            //"Please enter an actual day of the week." to the console if an error occurs.
+
+
             catch (Exception)
             {
                 Console.WriteLine("Please enter an actual day of the week.");
@@ -54,15 +54,7 @@ namespace Enum134
             {
                 Console.ReadLine();
             }
-        } // public static bool operator == (Employee employee1, Employee employee2)
-//        {
-//            if (employee1.employee1ID == employee2.employee1ID)
-
-//                return true;
-
-//            else
-//                return false;
-//        }
-//}
+        }
+    }
 
 }
